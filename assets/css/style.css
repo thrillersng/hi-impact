@@ -1,0 +1,52 @@
+.scroll-nav {
+    position: absolute;
+    top: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    right: 2em;
+    left: 2em;
+}
+.scroll-links ul {
+    list-style: none;
+}
+.scroll-links ul > li {
+    display: inline-block;
+}
+.scroll-links ul > li > a {
+    margin-left: 1em;
+}
+.hero-links a.ScrollTo {
+    left: 50%;
+    margin-left: 50px;
+    top: 100%;
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 0px solid transparent;
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    line-height: 90px;
+    position: static;
+}
+.hero-links {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner .hero_section {
+    
+}
+.aboutUs .contact_Us ul.tabs li {
+    width: calc(100% / 3);
+}
+.aboutUs {
+    background-color: #202020;
+    background-image: none;
+}
+.aboutUs > .animatedParent > h4 {
+    width: 30%;
+}
